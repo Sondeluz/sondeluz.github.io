@@ -7,7 +7,10 @@ tags: Pathfinding, AI, Go, Golang
 
 As part of my courses, I have studied different pathfinding techniques, but flowfields were not among them. These are used in videogames for crowd's pathfinding as a cheaper alternative to the A* algorithm, so I have implemented a basic demo for this pathfinding technique in a concurrent environment (using Go, as it makes concurrency and synchronization extremely easy).
 
-https://github.com/Sondeluz/sondeluz.github.io/raw/master/assets/images/flowfields.mp4
+
+<video controls="" width="800" height="600" muted="" loop="" autoplay="">
+<source src="https://github.com/Sondeluz/sondeluz.github.io/raw/master/assets/images/flowfields.mp4" type="video/mp4">
+</video>
 
 This is a very limited demo as I did it in just a couple of days, and is loosely based on the guides from https://howtorts.github.io/
 
