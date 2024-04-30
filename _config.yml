@@ -58,17 +58,29 @@ plugins:
 author:
   name   : "Samuel García"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hello! My name is Samuel and I am a CS graduate. Here you will find my blog entries about my various projects and details about my publications."
+  bio    : "Hello! My name is Samuel and I am a CS graduate passionate about everything AI and NLP. Here you will find my blog entries about my various projects and details about my publications."
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mail@samueldgv.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sondeluz"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/samuel-garc%C3%ADa-v%C3%A1zquez-82a732149/"
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mail@samueldgv.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sondeluz"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/samuel-garc%C3%ADa-v%C3%A1zquez-82a732149/"
 
 defaults:
   # _posts
