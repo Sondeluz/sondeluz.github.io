@@ -2,7 +2,11 @@
 title:  "Lots of stuff"
 date:   2024-05-01
 categories: Projects
-tags:
+teaser: /assets/images/red_room.jpg
+header: /assets/images/red_room.jpg
+og_image: /assets/images/red_room.jpg
+
+tags: Computer_graphics, AI, NLP, C, C++, Assembly, Rust
 ---
 
 
@@ -23,7 +27,7 @@ Also, here's the obligatory Cornell Box:
 ![a lame, non-red room](/assets/images/lame_room.jpg)
 
 ### ARM Sudoku
-Although this project was developed during 2021/2022, I only went around uploading [it](https://github.com/Sondeluz/ARM_sudoku) half a year ago. This is a fully functional Sudoku game playable through the `GPIO` and containing visualizations for both the `UART` console and the `GPIO` itself, for the `LPC2105 ARM7TDMI-S` CPU (simulated through `Keil uVision`). It was developed on a mix of C and ARM assembly (for interrupt handling, power saving...), with an event queue architecture.
+Although this project was developed during 2021/2022, I only went around [uploading it](https://github.com/Sondeluz/ARM_sudoku) half a year ago. This is a fully functional Sudoku game playable through the `GPIO` and containing visualizations for both the `UART` console and the `GPIO` itself, for the `LPC2105 ARM7TDMI-S` CPU (simulated through `Keil uVision`). It was developed on a mix of C and ARM assembly (for interrupt handling, power saving...), with an event queue architecture.
 
 ### Research collaboration
 
@@ -45,11 +49,11 @@ During my research collaboration, I relied quite a lot on different [BM25 / BM25
 ### Computational Semantics course
 As part of my Master's, I took a course on Computational Semantics, where I worked on a wide range of NLP techniques, starting from "traditional" ones (use of WordNet and other corpora, static embeddings...) until reaching the State-Of-The-Art (contextual embeddings, multimodal LLMs...). I uploaded two of the most fancy projects [here](https://github.com/Sondeluz/ComputationalSemantics).
 
+<img src="https://github.com/Sondeluz/ComputationalSemantics/blob/main/visualization_example.gif?raw=true" alt="Cool, rotating CLIP embeddings" />
 
-![Cool, rotating CLIP embeddings](/assets/images/embedding_visualization.gif)
 
 ### Conversational Agent
-We also developed the inner systems of a Conversational Agent custom-tailored for Hotel and Restaurant requests. I published its Named Entity Recognition module, which was the system I worked the most on, [here](https://github.com/Sondeluz/Conversational-Agent-NER). It consists of a NER system for the Semantic frame slot filling task of a Conversational Agent, trained and evaluated using the `MultiWOZ` dataset. This is made up of different components, as we went a bit beyond simply detecting direct mentions of entities in sentences:
+We also developed the inner systems of a Conversational Agent custom-tailored for Hotel and Restaurant requests, as part of a Natural Language Interaction course. I published its Named Entity Recognition module, which was the system I worked the most on, [here](https://github.com/Sondeluz/Conversational-Agent-NER). It consists of a NER system for the Semantic frame slot filling task of a Conversational Agent, trained and evaluated using the `MultiWOZ` dataset. This is made up of different components, as we went a bit beyond simply detecting direct mentions of entities in sentences:
 - A NER system based on a Deberta-v3-base model, fine-tuned using the `flair` NLP library.
     - Detects directly mentioned slots (restaurant food types, restaurant and hotel names...)
     - Detects `question` and `dontcare` direct mentions
