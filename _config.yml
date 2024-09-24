@@ -70,7 +70,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/samuel-garc%C3%ADa-v%C3%A1zquez-82a732149/"
     - label: "CV"
-      icon: "fab fa-regular fa-file"
+      icon: "fab fa-fw fa-file"
       url: "https://github.com/Sondeluz/sondeluz.github.io/blob/master/assets/CV.pdf"
 
 footer:
@@ -85,7 +85,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/samuel-garc%C3%ADa-v%C3%A1zquez-82a732149/"
     - label: "CV"
-      icon: "fab fa-regular fa-file"
+      icon: "fab fa-fw fa-file"
       url: "https://github.com/Sondeluz/sondeluz.github.io/blob/master/assets/CV.pdf"
       
 
